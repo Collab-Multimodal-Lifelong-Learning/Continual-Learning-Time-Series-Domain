@@ -84,7 +84,7 @@ The following works are highlighted in the project's July 15, 2026 progress eval
 
 - **[Point-wise Anomaly Detection via Fold-bifurcation ODE (FOLD)](https://proceedings.iclr.cc/paper_files/paper/2026/hash/19dc8bc893019f7317df1c3bb30bffe2-Abstract-Conference.html)** — *ICLR 2026*.
   - Models anomaly detection as an approach toward a critical transition, using stress signals and fold-bifurcation-inspired dynamics under a point-wise evaluation protocol.
-  - [FOLD code and documentation](https://github.com/sheoyon-jhin/FOLD/blob/00ec9e16c32adfa236f893ad795c2c784736731e/README.md)
+  - [FOLD code and documentation](https://github.com/Collab-Multimodal-Lifelong-Learning/FOLD/blob/00ec9e16c32adfa236f893ad795c2c784736731e/README.md)
 
 ### Additional Project-Described Research
 
@@ -117,7 +117,7 @@ The following numbers are **project-reported results** from the progress-evaluat
 
 ## Code and Resources
 
-Each project is a Git submodule pinned to an upstream commit. The table links to the README for that revision, which covers the project's setup and run instructions.
+Each project is a Git submodule pinned to a commit in its organization fork. The table links to that revision's README and lists both the fork and its upstream repository.
 
 Clone this repository and its project folders with:
 
@@ -127,20 +127,20 @@ git clone --recurse-submodules --shallow-submodules https://github.com/Collab-Mu
 
 In an existing checkout, run `git submodule update --init --recursive --depth 1`.
 
-| Project README | Research focus | Upstream repository |
+| Project README | Research focus | Repositories |
 | --- | --- | --- |
-| [GT-GAN](https://github.com/Jinsung-Jeon/GT-GAN/blob/360c79edb08c09c2b018483c7dd7ddd18533a8cd/README.md) | Generative adversarial networks for time-series synthesis. | [GitHub](https://github.com/Jinsung-Jeon/GT-GAN) |
-| [LEAP](https://github.com/minju-hi/LEAP/blob/a5749ad782b0f780a1f78a7de6b8b4b5d18f4202/README.md) | Learnable paths for neural controlled differential equations. | [GitHub](https://github.com/minju-hi/LEAP) |
-| [Hawkes-Process-Based-on-Controlled-Differential-Equations](https://github.com/kookseungji/Hawkes-Process-Based-on-Controlled-Differential-Equations/blob/ee58a4622b9bb76339c07c94ee0fa758416b1dbb/README.md) | Continuous-time event modeling with Hawkes processes and controlled differential equations. | [GitHub](https://github.com/kookseungji/Hawkes-Process-Based-on-Controlled-Differential-Equations) |
-| [pad](https://github.com/sheoyon-jhin/pad/blob/ca0e9b0402f13b4042aac3f9d89770437f7d0507/README.md) | Detection of anomalies and their precursors in irregular time series. | [GitHub](https://github.com/sheoyon-jhin/pad) |
-| [NADE](https://github.com/hwangyong753/NADE/blob/c4850e61483979c460a591651bd9bd415e122ab1/readme.md) | Climate modeling with a neural advection–diffusion equation. | [GitHub](https://github.com/hwangyong753/NADE) |
-| [BSARec](https://github.com/yehjin-shin/BSARec/blob/c80bdc0f1a889b78fe9a27e2058389cc84caea84/README.md) | Sequential recommendation with an inductive bias that complements self-attention. | [GitHub](https://github.com/yehjin-shin/BSARec) |
-| [CONTIME](https://github.com/sheoyon-jhin/CONTIME/blob/5ac3f44f136447315aca506b6540bc31c9d31cb3/README.md) | Continuous-time forecasting with derivative regularization to reduce prediction delay. | [GitHub](https://github.com/sheoyon-jhin/CONTIME) |
-| [NCDENow_CIKM2024](https://github.com/sklim84/NCDENow_CIKM2024/blob/7e6123313be0047fe27b1251761bae278b1797df/README.md) | GDP nowcasting with dynamic factor models and neural controlled differential equations. | [GitHub](https://github.com/sklim84/NCDENow_CIKM2024) |
-| [ANCDE](https://github.com/sheoyon-jhin/ANCDE/blob/cce222f4602eae3dd2e0fbf069e20c6798dbd48e/README.md) | Attentive neural controlled differential equations for time-series classification and forecasting. | [GitHub](https://github.com/sheoyon-jhin/ANCDE) |
-| [TV-Rec](https://github.com/yehjin-shin/TV-Rec/blob/0ed874e9791c58bf8ad3715208e4d4e3ece19381/README.md) | Time-varying convolutional filters for sequential recommendation. | [GitHub](https://github.com/yehjin-shin/TV-Rec) |
-| [TABLeT](https://github.com/beotborry/TABLeT/blob/a36f5a2bd728d0530100b48415f0aadc976ee593/README.md) | Tokenization of fMRI volumes for long-range spatiotemporal modeling. | [GitHub](https://github.com/beotborry/TABLeT) |
-| [FOLD](https://github.com/sheoyon-jhin/FOLD/blob/00ec9e16c32adfa236f893ad795c2c784736731e/README.md) | Point-wise anomaly detection using fold-bifurcation dynamics. | [GitHub](https://github.com/sheoyon-jhin/FOLD) |
+| [GT-GAN](https://github.com/Collab-Multimodal-Lifelong-Learning/GT-GAN/blob/360c79edb08c09c2b018483c7dd7ddd18533a8cd/README.md) | Generative adversarial networks for time-series synthesis. | [Fork](https://github.com/Collab-Multimodal-Lifelong-Learning/GT-GAN) · [Upstream](https://github.com/Jinsung-Jeon/GT-GAN) |
+| [LEAP](https://github.com/Collab-Multimodal-Lifelong-Learning/LEAP/blob/a5749ad782b0f780a1f78a7de6b8b4b5d18f4202/README.md) | Learnable paths for neural controlled differential equations. | [Fork](https://github.com/Collab-Multimodal-Lifelong-Learning/LEAP) · [Upstream](https://github.com/minju-hi/LEAP) |
+| [Hawkes-Process-Based-on-Controlled-Differential-Equations](https://github.com/Collab-Multimodal-Lifelong-Learning/Hawkes-Process-Based-on-Controlled-Differential-Equations/blob/ee58a4622b9bb76339c07c94ee0fa758416b1dbb/README.md) | Continuous-time event modeling with Hawkes processes and controlled differential equations. | [Fork](https://github.com/Collab-Multimodal-Lifelong-Learning/Hawkes-Process-Based-on-Controlled-Differential-Equations) · [Upstream](https://github.com/kookseungji/Hawkes-Process-Based-on-Controlled-Differential-Equations) |
+| [pad](https://github.com/Collab-Multimodal-Lifelong-Learning/pad/blob/ca0e9b0402f13b4042aac3f9d89770437f7d0507/README.md) | Detection of anomalies and their precursors in irregular time series. | [Fork](https://github.com/Collab-Multimodal-Lifelong-Learning/pad) · [Upstream](https://github.com/sheoyon-jhin/pad) |
+| [NADE](https://github.com/Collab-Multimodal-Lifelong-Learning/NADE/blob/c4850e61483979c460a591651bd9bd415e122ab1/readme.md) | Climate modeling with a neural advection–diffusion equation. | [Fork](https://github.com/Collab-Multimodal-Lifelong-Learning/NADE) · [Upstream](https://github.com/hwangyong753/NADE) |
+| [BSARec](https://github.com/Collab-Multimodal-Lifelong-Learning/BSARec/blob/c80bdc0f1a889b78fe9a27e2058389cc84caea84/README.md) | Sequential recommendation with an inductive bias that complements self-attention. | [Fork](https://github.com/Collab-Multimodal-Lifelong-Learning/BSARec) · [Upstream](https://github.com/yehjin-shin/BSARec) |
+| [CONTIME](https://github.com/Collab-Multimodal-Lifelong-Learning/CONTIME/blob/5ac3f44f136447315aca506b6540bc31c9d31cb3/README.md) | Continuous-time forecasting with derivative regularization to reduce prediction delay. | [Fork](https://github.com/Collab-Multimodal-Lifelong-Learning/CONTIME) · [Upstream](https://github.com/sheoyon-jhin/CONTIME) |
+| [NCDENow_CIKM2024](https://github.com/Collab-Multimodal-Lifelong-Learning/NCDENow_CIKM2024/blob/7e6123313be0047fe27b1251761bae278b1797df/README.md) | GDP nowcasting with dynamic factor models and neural controlled differential equations. | [Fork](https://github.com/Collab-Multimodal-Lifelong-Learning/NCDENow_CIKM2024) · [Upstream](https://github.com/sklim84/NCDENow_CIKM2024) |
+| [ANCDE](https://github.com/Collab-Multimodal-Lifelong-Learning/ANCDE/blob/cce222f4602eae3dd2e0fbf069e20c6798dbd48e/README.md) | Attentive neural controlled differential equations for time-series classification and forecasting. | [Fork](https://github.com/Collab-Multimodal-Lifelong-Learning/ANCDE) · [Upstream](https://github.com/sheoyon-jhin/ANCDE) |
+| [TV-Rec](https://github.com/Collab-Multimodal-Lifelong-Learning/TV-Rec/blob/0ed874e9791c58bf8ad3715208e4d4e3ece19381/README.md) | Time-varying convolutional filters for sequential recommendation. | [Fork](https://github.com/Collab-Multimodal-Lifelong-Learning/TV-Rec) · [Upstream](https://github.com/yehjin-shin/TV-Rec) |
+| [TABLeT](https://github.com/Collab-Multimodal-Lifelong-Learning/TABLeT/blob/a36f5a2bd728d0530100b48415f0aadc976ee593/README.md) | Tokenization of fMRI volumes for long-range spatiotemporal modeling. | [Fork](https://github.com/Collab-Multimodal-Lifelong-Learning/TABLeT) · [Upstream](https://github.com/beotborry/TABLeT) |
+| [FOLD](https://github.com/Collab-Multimodal-Lifelong-Learning/FOLD/blob/00ec9e16c32adfa236f893ad795c2c784736731e/README.md) | Point-wise anomaly detection using fold-bifurcation dynamics. | [Fork](https://github.com/Collab-Multimodal-Lifelong-Learning/FOLD) · [Upstream](https://github.com/sheoyon-jhin/FOLD) |
 
 ## Related Repositories
 

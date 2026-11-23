@@ -1,36 +1,36 @@
 [submodule "GT-GAN"]
 	path = GT-GAN
-	url = https://github.com/Jinsung-Jeon/GT-GAN.git
+	url = https://github.com/Collab-Multimodal-Lifelong-Learning/GT-GAN.git
 [submodule "LEAP"]
 	path = LEAP
-	url = https://github.com/minju-hi/LEAP.git
+	url = https://github.com/Collab-Multimodal-Lifelong-Learning/LEAP.git
 [submodule "Hawkes-Process-Based-on-Controlled-Differential-Equations"]
 	path = Hawkes-Process-Based-on-Controlled-Differential-Equations
-	url = https://github.com/kookseungji/Hawkes-Process-Based-on-Controlled-Differential-Equations.git
+	url = https://github.com/Collab-Multimodal-Lifelong-Learning/Hawkes-Process-Based-on-Controlled-Differential-Equations.git
 [submodule "pad"]
 	path = pad
-	url = https://github.com/sheoyon-jhin/pad.git
+	url = https://github.com/Collab-Multimodal-Lifelong-Learning/pad.git
 [submodule "NADE"]
 	path = NADE
-	url = https://github.com/hwangyong753/NADE.git
+	url = https://github.com/Collab-Multimodal-Lifelong-Learning/NADE.git
 [submodule "BSARec"]
 	path = BSARec
-	url = https://github.com/yehjin-shin/BSARec.git
+	url = https://github.com/Collab-Multimodal-Lifelong-Learning/BSARec.git
 [submodule "CONTIME"]
 	path = CONTIME
-	url = https://github.com/sheoyon-jhin/CONTIME.git
+	url = https://github.com/Collab-Multimodal-Lifelong-Learning/CONTIME.git
 [submodule "NCDENow_CIKM2024"]
 	path = NCDENow_CIKM2024
-	url = https://github.com/sklim84/NCDENow_CIKM2024.git
+	url = https://github.com/Collab-Multimodal-Lifelong-Learning/NCDENow_CIKM2024.git
 [submodule "ANCDE"]
 	path = ANCDE
-	url = https://github.com/sheoyon-jhin/ANCDE.git
+	url = https://github.com/Collab-Multimodal-Lifelong-Learning/ANCDE.git
 [submodule "TV-Rec"]
 	path = TV-Rec
-	url = https://github.com/yehjin-shin/TV-Rec.git
+	url = https://github.com/Collab-Multimodal-Lifelong-Learning/TV-Rec.git
 [submodule "TABLeT"]
 	path = TABLeT
-	url = https://github.com/beotborry/TABLeT.git
+	url = https://github.com/Collab-Multimodal-Lifelong-Learning/TABLeT.git
 [submodule "FOLD"]
 	path = FOLD
-	url = https://github.com/sheoyon-jhin/FOLD.git
+	url = https://github.com/Collab-Multimodal-Lifelong-Learning/FOLD.git
