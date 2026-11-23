@@ -4,7 +4,78 @@
 
 This repository is part of the [Collab-Multimodal-Lifelong-Learning](https://github.com/Collab-Multimodal-Lifelong-Learning) project, **Developing a Sustainable Collaborative Multi-modal Lifelong Learning Framework**. It brings together research on representing structured temporal patterns, adapting models to changing signal characteristics, and detecting critical changes in time-series data.
 
-Browse the [12 research projects](#code-and-resources) for source code and documentation.
+## Research list
+
+### Time-series synthesis, modeling, and forecasting
+
+- **GT-GAN: General Purpose Time Series Synthesis with Generative Adversarial Networks** (NeurIPS 2022) — Jinsung Jeon et al.
+  - Synthesizes both regularly and irregularly sampled time series with a common architecture.
+  - [Paper](https://arxiv.org/abs/2210.02040) · [Project code](https://github.com/Collab-Multimodal-Lifelong-Learning/GT-GAN/blob/fc1f20ef1dbffb8d72c84712c215440ec71ce696/README.md) · [Fork](https://github.com/Collab-Multimodal-Lifelong-Learning/GT-GAN) · [Upstream](https://github.com/Jinsung-Jeon/GT-GAN)
+
+- **Attentive Neural Controlled Differential Equations for Time-Series Classification and Forecasting (ANCDE)** (ICDM 2021) — Sheo Yon Jhin et al.
+  - Attentive neural controlled differential equations for time-series classification and forecasting.
+  - [Paper](https://arxiv.org/abs/2109.01876) · [Project code](https://github.com/Collab-Multimodal-Lifelong-Learning/ANCDE/blob/c0c0e26d80ba4882d991972b81cb7d1cb4f14262/README.md) · [Fork](https://github.com/Collab-Multimodal-Lifelong-Learning/ANCDE) · [Upstream](https://github.com/sheoyon-jhin/ANCDE)
+
+- **Learnable Path in Neural Controlled Differential Equations (LEAP)** (AAAI 2023) — Sheo Yon Jhin et al.
+  - Learnable paths for neural controlled differential equations.
+  - [Paper](https://arxiv.org/abs/2301.04333) · [Project code](https://github.com/Collab-Multimodal-Lifelong-Learning/LEAP/blob/bd49fe865c59ae09d71d24b0ef0fd9b7bf4b4702/README.md) · [Fork](https://github.com/Collab-Multimodal-Lifelong-Learning/LEAP) · [Upstream](https://github.com/minju-hi/LEAP)
+
+- **Hawkes Process Based on Controlled Differential Equations** (IJCAI 2023) — Minju Jo, Seungji Kook, and Noseong Park
+  - Continuous-time event modeling with Hawkes processes and controlled differential equations.
+  - [Paper](https://www.ijcai.org/proceedings/2023/239) · [Project code](https://github.com/Collab-Multimodal-Lifelong-Learning/Hawkes-Process-Based-on-Controlled-Differential-Equations/blob/50c07c354a9f42a5b8a05acb201e4fc408986788/README.md) · [Fork](https://github.com/Collab-Multimodal-Lifelong-Learning/Hawkes-Process-Based-on-Controlled-Differential-Equations) · [Upstream](https://github.com/kookseungji/Hawkes-Process-Based-on-Controlled-Differential-Equations)
+
+- **Climate Modeling with Neural Advection-Diffusion Equation (NADE)** (ICML 2023) — Hwangyong Choi et al.
+  - Climate modeling with a neural advection–diffusion equation.
+  - [Paper](https://proceedings.mlr.press/v202/choi23a.html) · [Project code](https://github.com/Collab-Multimodal-Lifelong-Learning/NADE/blob/3882b68a5c237f409b0a6b9d9138e859bdca3e7f/readme.md) · [Fork](https://github.com/Collab-Multimodal-Lifelong-Learning/NADE) · [Upstream](https://github.com/hwangyong753/NADE)
+
+- **Addressing Prediction Delays in Time Series Forecasting: A Continuous GRU Approach with Derivative Regularization (CONTIME)** (KDD 2024) — Sheo Yon Jhin, Seojin Kim, and Noseong Park
+  - Regularizes time derivatives in a continuous-time GRU to reduce the lag between forecasts and observations.
+  - [Paper](https://arxiv.org/abs/2407.01622) · [Project code](https://github.com/Collab-Multimodal-Lifelong-Learning/CONTIME/blob/e48da62889131021534e5519c337b543386e086b/README.md) · [Fork](https://github.com/Collab-Multimodal-Lifelong-Learning/CONTIME) · [Upstream](https://github.com/sheoyon-jhin/CONTIME)
+
+- **Bridging Dynamic Factor Models and Neural Controlled Differential Equations for Nowcasting GDP (NCDENow)** (CIKM 2024) — Seonkyu Lim et al.
+  - GDP nowcasting with dynamic factor models and neural controlled differential equations.
+  - [Paper](https://arxiv.org/abs/2409.08732) · [Project code](https://github.com/Collab-Multimodal-Lifelong-Learning/NCDENow_CIKM2024/blob/32dc54c19e3f6edc2932c1f4588ea661468ec985/README.md) · [Fork](https://github.com/Collab-Multimodal-Lifelong-Learning/NCDENow_CIKM2024) · [Upstream](https://github.com/sklim84/NCDENow_CIKM2024)
+
+- **Can Natural Image Autoencoders Compactly Tokenize fMRI Volumes for Long-Range Dynamics Modeling? (TABLeT)** (CVPR 2026) — Peter Yongho Kim et al.
+  - Tokenization of fMRI volumes for long-range spatiotemporal modeling.
+  - [Paper](https://arxiv.org/abs/2604.03619) · [Project code](https://github.com/Collab-Multimodal-Lifelong-Learning/TABLeT/blob/1c614c1704a7962dbe48f302fdc87b05947a9cb2/README.md) · [Fork](https://github.com/Collab-Multimodal-Lifelong-Learning/TABLeT) · [Upstream](https://github.com/beotborry/TABLeT)
+
+### Anomaly and precursor detection
+
+- **Precursor-of-Anomaly Detection for Irregular Time Series** (KDD 2023) — Sheo Yon Jhin, Jaehoon Lee, and Noseong Park
+  - Detection of anomalies and their precursors in irregular time series.
+  - [Paper](https://arxiv.org/abs/2306.15489) · [Project code](https://github.com/Collab-Multimodal-Lifelong-Learning/pad/blob/96ba1c2ae241059af02bd9db3d8dd648c73535b3/README.md) · [Fork](https://github.com/Collab-Multimodal-Lifelong-Learning/pad) · [Upstream](https://github.com/sheoyon-jhin/pad)
+
+- **Point-wise Anomaly Detection via Fold-bifurcation ODE (FOLD)** (ICLR 2026) — Sheo Yon Jhin and Noseong Park
+  - Models anomaly detection as an approach toward a critical transition, using stress signals and fold-bifurcation-inspired dynamics under a point-wise evaluation protocol.
+  - [Paper](https://proceedings.iclr.cc/paper_files/paper/2026/hash/19dc8bc893019f7317df1c3bb30bffe2-Abstract-Conference.html) · [Project code](https://github.com/Collab-Multimodal-Lifelong-Learning/FOLD/blob/522e7d0e1fbc389905601de284bf3afd748c7d6f/README.md) · [Fork](https://github.com/Collab-Multimodal-Lifelong-Learning/FOLD) · [Upstream](https://github.com/sheoyon-jhin/FOLD)
+
+### Sequential recommendation
+
+- **An Attentive Inductive Bias for Sequential Recommendation beyond the Self-Attention (BSARec)** (AAAI 2024) — Yehjin Shin et al.
+  - Sequential recommendation with an inductive bias that complements self-attention.
+  - [Paper](https://arxiv.org/abs/2312.10325) · [Project code](https://github.com/Collab-Multimodal-Lifelong-Learning/BSARec/blob/95c5a90414353cc39c639fb80787b379349d9873/README.md) · [Fork](https://github.com/Collab-Multimodal-Lifelong-Learning/BSARec) · [Upstream](https://github.com/yehjin-shin/BSARec)
+
+- **TV-Rec: Time-Variant Convolutional Filter for Sequential Recommendation** (NeurIPS 2025) — Yehjin Shin et al.
+  - Time-varying convolutional filters for sequential recommendation.
+  - [Paper](https://arxiv.org/abs/2510.25259) · [Project code](https://github.com/Collab-Multimodal-Lifelong-Learning/TV-Rec/blob/b74860476afbd6c8e1f245c3da41c764d043dd7a/README.md) · [Fork](https://github.com/Collab-Multimodal-Lifelong-Learning/TV-Rec) · [Upstream](https://github.com/yehjin-shin/TV-Rec)
+
+### Additional project research
+
+The following works are highlighted in the project's July 15, 2026 progress evaluation.
+
+#### Published or Accepted Research
+
+- **[TimeOperator: A Function-to-Function Approach to Time Series Modeling](https://neurips.cc/virtual/2026/poster/155398)** — *NeurIPS 2026*.
+  - Studies function-to-function modeling, multiple functional bases, and context-dependent modeling of time-series signals.
+
+#### Additional Project-Described Research
+
+- **SALT: Structure-Aligned Learning for Time-Series Forecasting** — *Research manuscript described in the July 2026 project evaluation; final publication status not asserted here*.
+  - Combines **Iterative Dominant Extraction** and **Separable Training** to reduce gradient interference and improve learning across temporal structures.
+
+- **SHIFTS: Modeling Human Factors in Time Series via Structured Uncertainty** — *2026 project-described research; publication status not asserted here*.
+  - Investigates separation of system drift and human-factor variation, with structured modeling of latent temporal uncertainty.
 
 ## Research Overview
 
@@ -73,27 +144,6 @@ The principal research directions are:
 
 **Research team:** Prof. Noseong Park, KAIST.
 
-## Representative Research and Publications
-
-The following works are highlighted in the project's July 15, 2026 progress evaluation.
-
-### Published or Accepted Research
-
-- **[TimeOperator: A Function-to-Function Approach to Time Series Modeling](https://neurips.cc/virtual/2026/poster/155398)** — *NeurIPS 2026*.
-  - Studies function-to-function modeling, multiple functional bases, and context-dependent modeling of time-series signals.
-
-- **[Point-wise Anomaly Detection via Fold-bifurcation ODE (FOLD)](https://proceedings.iclr.cc/paper_files/paper/2026/hash/19dc8bc893019f7317df1c3bb30bffe2-Abstract-Conference.html)** — *ICLR 2026*.
-  - Models anomaly detection as an approach toward a critical transition, using stress signals and fold-bifurcation-inspired dynamics under a point-wise evaluation protocol.
-  - [FOLD code and documentation](https://github.com/Collab-Multimodal-Lifelong-Learning/FOLD/blob/00ec9e16c32adfa236f893ad795c2c784736731e/README.md)
-
-### Additional Project-Described Research
-
-- **SALT: Structure-Aligned Learning for Time-Series Forecasting** — *Research manuscript described in the July 2026 project evaluation; final publication status not asserted here*.
-  - Combines **Iterative Dominant Extraction** and **Separable Training** to reduce gradient interference and improve learning across temporal structures.
-
-- **SHIFTS: Modeling Human Factors in Time Series via Structured Uncertainty** — *2026 project-described research; publication status not asserted here*.
-  - Investigates separation of system drift and human-factor variation, with structured modeling of latent temporal uncertainty.
-
 ## Evaluation Highlights
 
 The following numbers are **project-reported results** from the progress-evaluation materials dated **July 15, 2026**. They are **not independently reproduced from code in this repository**. Mean squared error (MSE) is a lower-is-better metric.
@@ -117,7 +167,7 @@ The following numbers are **project-reported results** from the progress-evaluat
 
 ## Code and Resources
 
-Each project is a Git submodule pinned to a commit in its organization fork. The table links to that revision's README and lists both the fork and its upstream repository.
+Each Project code link opens the README at the pinned commit in the organization fork. The corresponding submodule uses the same revision. Open the upstream repository for the original source.
 
 Clone this repository and its project folders with:
 
@@ -126,21 +176,6 @@ git clone --recurse-submodules --shallow-submodules https://github.com/Collab-Mu
 ```
 
 In an existing checkout, run `git submodule update --init --recursive --depth 1`.
-
-| Project README | Research focus | Repositories |
-| --- | --- | --- |
-| [GT-GAN](https://github.com/Collab-Multimodal-Lifelong-Learning/GT-GAN/blob/360c79edb08c09c2b018483c7dd7ddd18533a8cd/README.md) | Generative adversarial networks for time-series synthesis. | [Fork](https://github.com/Collab-Multimodal-Lifelong-Learning/GT-GAN) · [Upstream](https://github.com/Jinsung-Jeon/GT-GAN) |
-| [LEAP](https://github.com/Collab-Multimodal-Lifelong-Learning/LEAP/blob/a5749ad782b0f780a1f78a7de6b8b4b5d18f4202/README.md) | Learnable paths for neural controlled differential equations. | [Fork](https://github.com/Collab-Multimodal-Lifelong-Learning/LEAP) · [Upstream](https://github.com/minju-hi/LEAP) |
-| [Hawkes-Process-Based-on-Controlled-Differential-Equations](https://github.com/Collab-Multimodal-Lifelong-Learning/Hawkes-Process-Based-on-Controlled-Differential-Equations/blob/ee58a4622b9bb76339c07c94ee0fa758416b1dbb/README.md) | Continuous-time event modeling with Hawkes processes and controlled differential equations. | [Fork](https://github.com/Collab-Multimodal-Lifelong-Learning/Hawkes-Process-Based-on-Controlled-Differential-Equations) · [Upstream](https://github.com/kookseungji/Hawkes-Process-Based-on-Controlled-Differential-Equations) |
-| [pad](https://github.com/Collab-Multimodal-Lifelong-Learning/pad/blob/ca0e9b0402f13b4042aac3f9d89770437f7d0507/README.md) | Detection of anomalies and their precursors in irregular time series. | [Fork](https://github.com/Collab-Multimodal-Lifelong-Learning/pad) · [Upstream](https://github.com/sheoyon-jhin/pad) |
-| [NADE](https://github.com/Collab-Multimodal-Lifelong-Learning/NADE/blob/c4850e61483979c460a591651bd9bd415e122ab1/readme.md) | Climate modeling with a neural advection–diffusion equation. | [Fork](https://github.com/Collab-Multimodal-Lifelong-Learning/NADE) · [Upstream](https://github.com/hwangyong753/NADE) |
-| [BSARec](https://github.com/Collab-Multimodal-Lifelong-Learning/BSARec/blob/c80bdc0f1a889b78fe9a27e2058389cc84caea84/README.md) | Sequential recommendation with an inductive bias that complements self-attention. | [Fork](https://github.com/Collab-Multimodal-Lifelong-Learning/BSARec) · [Upstream](https://github.com/yehjin-shin/BSARec) |
-| [CONTIME](https://github.com/Collab-Multimodal-Lifelong-Learning/CONTIME/blob/5ac3f44f136447315aca506b6540bc31c9d31cb3/README.md) | Continuous-time forecasting with derivative regularization to reduce prediction delay. | [Fork](https://github.com/Collab-Multimodal-Lifelong-Learning/CONTIME) · [Upstream](https://github.com/sheoyon-jhin/CONTIME) |
-| [NCDENow_CIKM2024](https://github.com/Collab-Multimodal-Lifelong-Learning/NCDENow_CIKM2024/blob/7e6123313be0047fe27b1251761bae278b1797df/README.md) | GDP nowcasting with dynamic factor models and neural controlled differential equations. | [Fork](https://github.com/Collab-Multimodal-Lifelong-Learning/NCDENow_CIKM2024) · [Upstream](https://github.com/sklim84/NCDENow_CIKM2024) |
-| [ANCDE](https://github.com/Collab-Multimodal-Lifelong-Learning/ANCDE/blob/cce222f4602eae3dd2e0fbf069e20c6798dbd48e/README.md) | Attentive neural controlled differential equations for time-series classification and forecasting. | [Fork](https://github.com/Collab-Multimodal-Lifelong-Learning/ANCDE) · [Upstream](https://github.com/sheoyon-jhin/ANCDE) |
-| [TV-Rec](https://github.com/Collab-Multimodal-Lifelong-Learning/TV-Rec/blob/0ed874e9791c58bf8ad3715208e4d4e3ece19381/README.md) | Time-varying convolutional filters for sequential recommendation. | [Fork](https://github.com/Collab-Multimodal-Lifelong-Learning/TV-Rec) · [Upstream](https://github.com/yehjin-shin/TV-Rec) |
-| [TABLeT](https://github.com/Collab-Multimodal-Lifelong-Learning/TABLeT/blob/a36f5a2bd728d0530100b48415f0aadc976ee593/README.md) | Tokenization of fMRI volumes for long-range spatiotemporal modeling. | [Fork](https://github.com/Collab-Multimodal-Lifelong-Learning/TABLeT) · [Upstream](https://github.com/beotborry/TABLeT) |
-| [FOLD](https://github.com/Collab-Multimodal-Lifelong-Learning/FOLD/blob/00ec9e16c32adfa236f893ad795c2c784736731e/README.md) | Point-wise anomaly detection using fold-bifurcation dynamics. | [Fork](https://github.com/Collab-Multimodal-Lifelong-Learning/FOLD) · [Upstream](https://github.com/sheoyon-jhin/FOLD) |
 
 ## Related Repositories
 
